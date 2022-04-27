@@ -13,11 +13,14 @@ Specifically, you must do the following for this assignment:
 
   1. **`HeaderServer.getHttpHeaders(URL):`** Use the `HttpsFetcher` methods to send a `HEAD` request for the provided URL and return the HTTP headers (no content). **Do NOT send a GET request to the web server!**
 
-  1. **`HeaderServer.HeaderServlet.doGet()`** This servlet should display a simple web form configured to use the `GET` HTTP method that allows users to enter a link and press a button to display the HTTP headers for that link.
+  1. **`HeaderServer.HeaderServlet.doGet()`** This servlet should:
+  
+       - Display a simple web form configured to use the `GET` HTTP method that allows users to enter a link and press a button to display the HTTP headers for that link. 
+      - If the appropriate link parameter is present, the servlet should fetch and **safely** display the HTTP headers for the provided link. 
+      - If the servlet is unable to fetch the headers for any reason, display a warning message on the web page. **Do NOT override the `doPost` method for this assignment!**
 
-      If the appropriate link parameter is present, the servlet should fetch and **safely** display the HTTP headers for the provided link. The servlet should reasonably protect against malicious content contained within those headers or in the link entered by the user.
+The servlet should reasonably protect against malicious content contained within those headers or in the link entered by the user.
 
-      If the servlet is unable to fetch the headers for any reason, display a warning message on the web page. **Do NOT override the `doPost` method for this assignment!**
 ## Grading 
 
 You may use this assignment to earn back points lost due on previous homework assignments, up to a maximum of 100 points. 
