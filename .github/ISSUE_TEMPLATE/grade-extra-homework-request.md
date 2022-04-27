@@ -7,7 +7,7 @@ assignees: par5ul1, igentle292, ybsolomon, tydaljames, mtquach2
 
 ---
 
-:information_source: *Use this template to request a grade for this optional extra credit homework assignment. Make sure to replace all `[PLACEHOLDER]` placeholder text below, including the `[` and `]` symbols, with the relevant information. See [the template repository](https://github.com/usf-cs272-spring2022/homework-HeaderServer-template/issues?q=is%3Aissue+is%3Aclosed+) for an example issue.*
+:information_source: *Use this template to request a grade for this optional extra credit homework assignment. Make sure to replace all `[PLACEHOLDER]` placeholder text below, including the `[` and `]` symbols, with the relevant information. See [the template repository](https://github.com/usf-cs272-spring2022/homework-HeaderServer-template/issues/1) for an example issue.*
 
 ## Grading Information
 
@@ -35,7 +35,7 @@ Create one screenshot for each of the following values for the link to fetch:
 
 :clipboard: **For each test case, you must replace the `[USF_USERNAME]` placeholder (including the `[` and `]` symbols) with your actual USF username.**
 
-#### Screenshots
+### Screenshots
 
 Attach the four screenshots for each test case below. Make sure the web form, the results, and the URL of the browser are visible in your screenshots.
 
